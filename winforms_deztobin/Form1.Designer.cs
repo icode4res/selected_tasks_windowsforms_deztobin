@@ -47,12 +47,12 @@
             // 
             // CmdClose
             // 
-            this.CmdClose.BackColor = System.Drawing.Color.RosyBrown;
+            this.CmdClose.BackColor = System.Drawing.Color.Blue;
             this.CmdClose.Font = new System.Drawing.Font("Tempus Sans ITC", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.CmdClose.ForeColor = System.Drawing.Color.Transparent;
-            this.CmdClose.Location = new System.Drawing.Point(747, 457);
+            this.CmdClose.Location = new System.Drawing.Point(747, 403);
             this.CmdClose.Name = "CmdClose";
-            this.CmdClose.Size = new System.Drawing.Size(71, 45);
+            this.CmdClose.Size = new System.Drawing.Size(71, 40);
             this.CmdClose.TabIndex = 0;
             this.CmdClose.Text = "Close";
             this.CmdClose.UseVisualStyleBackColor = false;
@@ -61,16 +61,16 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(88, 57);
+            this.label1.Location = new System.Drawing.Point(88, 50);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(30, 17);
+            this.label1.Size = new System.Drawing.Size(26, 15);
             this.label1.TabIndex = 1;
             this.label1.Text = "Dez";
             // 
             // txtDezimal
             // 
             this.txtDezimal.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtDezimal.Location = new System.Drawing.Point(160, 52);
+            this.txtDezimal.Location = new System.Drawing.Point(160, 46);
             this.txtDezimal.Name = "txtDezimal";
             this.txtDezimal.Size = new System.Drawing.Size(490, 27);
             this.txtDezimal.TabIndex = 2;
@@ -79,7 +79,7 @@
             // txtBinaerEingabe
             // 
             this.txtBinaerEingabe.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtBinaerEingabe.Location = new System.Drawing.Point(160, 256);
+            this.txtBinaerEingabe.Location = new System.Drawing.Point(160, 226);
             this.txtBinaerEingabe.Name = "txtBinaerEingabe";
             this.txtBinaerEingabe.Size = new System.Drawing.Size(490, 27);
             this.txtBinaerEingabe.TabIndex = 3;
@@ -88,7 +88,7 @@
             // 
             this.txtBinAusgabe.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtBinAusgabe.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtBinAusgabe.Location = new System.Drawing.Point(160, 102);
+            this.txtBinAusgabe.Location = new System.Drawing.Point(160, 90);
             this.txtBinAusgabe.Name = "txtBinAusgabe";
             this.txtBinAusgabe.Size = new System.Drawing.Size(490, 24);
             this.txtBinAusgabe.TabIndex = 5;
@@ -98,7 +98,7 @@
             // 
             this.txtHexAusgabe1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtHexAusgabe1.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtHexAusgabe1.Location = new System.Drawing.Point(160, 151);
+            this.txtHexAusgabe1.Location = new System.Drawing.Point(160, 133);
             this.txtHexAusgabe1.Name = "txtHexAusgabe1";
             this.txtHexAusgabe1.Size = new System.Drawing.Size(490, 24);
             this.txtHexAusgabe1.TabIndex = 6;
@@ -108,7 +108,7 @@
             // 
             this.txtDezAusgabe.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtDezAusgabe.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtDezAusgabe.Location = new System.Drawing.Point(160, 311);
+            this.txtDezAusgabe.Location = new System.Drawing.Point(160, 274);
             this.txtDezAusgabe.Name = "txtDezAusgabe";
             this.txtDezAusgabe.Size = new System.Drawing.Size(490, 24);
             this.txtDezAusgabe.TabIndex = 7;
@@ -118,7 +118,7 @@
             // 
             this.txtHexAusgabe2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtHexAusgabe2.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtHexAusgabe2.Location = new System.Drawing.Point(160, 365);
+            this.txtHexAusgabe2.Location = new System.Drawing.Point(160, 322);
             this.txtHexAusgabe2.Name = "txtHexAusgabe2";
             this.txtHexAusgabe2.Size = new System.Drawing.Size(490, 24);
             this.txtHexAusgabe2.TabIndex = 8;
@@ -127,45 +127,45 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(88, 106);
+            this.label3.Location = new System.Drawing.Point(88, 94);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(25, 17);
+            this.label3.Size = new System.Drawing.Size(24, 15);
             this.label3.TabIndex = 9;
             this.label3.Text = "Bin";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(88, 155);
+            this.label4.Location = new System.Drawing.Point(88, 137);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(30, 17);
+            this.label4.Size = new System.Drawing.Size(28, 15);
             this.label4.TabIndex = 10;
             this.label4.Text = "Hex";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(88, 261);
+            this.label5.Location = new System.Drawing.Point(88, 230);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(25, 17);
+            this.label5.Size = new System.Drawing.Size(24, 15);
             this.label5.TabIndex = 11;
             this.label5.Text = "Bin";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(88, 315);
+            this.label6.Location = new System.Drawing.Point(88, 278);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(30, 17);
+            this.label6.Size = new System.Drawing.Size(26, 15);
             this.label6.TabIndex = 12;
             this.label6.Text = "Dez";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(88, 369);
+            this.label7.Location = new System.Drawing.Point(88, 326);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(30, 17);
+            this.label7.Size = new System.Drawing.Size(28, 15);
             this.label7.TabIndex = 13;
             this.label7.Text = "Hex";
             // 
@@ -173,9 +173,9 @@
             // 
             this.CmdDezimal.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.CmdDezimal.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.CmdDezimal.Location = new System.Drawing.Point(677, 52);
+            this.CmdDezimal.Location = new System.Drawing.Point(677, 46);
             this.CmdDezimal.Name = "CmdDezimal";
-            this.CmdDezimal.Size = new System.Drawing.Size(141, 27);
+            this.CmdDezimal.Size = new System.Drawing.Size(141, 24);
             this.CmdDezimal.TabIndex = 14;
             this.CmdDezimal.Text = "Dezimal -> Binär";
             this.CmdDezimal.UseVisualStyleBackColor = true;
@@ -185,9 +185,9 @@
             // 
             this.CmdBinaer.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.CmdBinaer.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.CmdBinaer.Location = new System.Drawing.Point(677, 256);
+            this.CmdBinaer.Location = new System.Drawing.Point(677, 226);
             this.CmdBinaer.Name = "CmdBinaer";
-            this.CmdBinaer.Size = new System.Drawing.Size(141, 27);
+            this.CmdBinaer.Size = new System.Drawing.Size(141, 24);
             this.CmdBinaer.TabIndex = 16;
             this.CmdBinaer.Text = "Binär -> Dezimal";
             this.CmdBinaer.UseVisualStyleBackColor = true;
@@ -195,9 +195,9 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(874, 526);
+            this.ClientSize = new System.Drawing.Size(874, 464);
             this.Controls.Add(this.CmdBinaer);
             this.Controls.Add(this.CmdDezimal);
             this.Controls.Add(this.label7);
